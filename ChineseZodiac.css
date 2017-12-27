@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, "sans-serif", Tahoma;
+    background-image: url("Images/background.jpg");
+    /* Image obtained from http://pichost.me/1725784/ */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#banner img{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#nav {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+#nav img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#content {
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    width: 50%;
+    background-color: #E7D063;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 45px;
+    margin-bottom: 10%;
+    overflow: hidden;
+}
+
+#float img {
+    float: right;
+}
+
+h1 {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 300%;
+}
+
+#footer { 
+    position: fixed;
+    width: 100%;
+    height: 25px;
+    background-color: darkred;
+    bottom: 0px;
+}
+
+#footer a{
+    color: black;
+}
+
+#footer a:hover{
+    color: #E7D063;
+}
+
+.rat {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 105px;
+    height: 100px;
+    background:transparent url(Images/default1.png) center no-repeat;
+    /* chinese themed icons < default1/default2/default3/default4.png > obtained from https://www.shutterstock.com/image-vector/vector-yellow-flat-style-traditional-chinese-247112449 */
+    padding: 30px;
+}
+
+.rat:hover {
+    background-image: url(Images/rat.png);
+    /* Animal vector images obtained from https://astroshiopedia.blogspot.ca/2015/12/ingin-pindah-kerja-di-tahun-monyet-api.html */
+}
+
+.ox {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background:transparent url(Images/default2.png) center no-repeat;
+    padding: 30px;
+}
+
+.ox:hover {
+    background-image: url(Images/ox.png)
+}
+
+.tiger {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background:transparent url(Images/default3.png) center no-repeat;
+    padding: 30px;
+}
+
+.tiger:hover {
+    background-image: url(Images/tiger.png)
+}
+
+.rabbit {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default4.png) center no-repeat;
+    padding: 30px;
+}
+
+.rabbit:hover {
+    background-image: url(Images/rabbit.png)
+}
+
+.dragon {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default2.png) center no-repeat;
+    padding: 30px;
+}
+
+.dragon:hover {
+    background-image: url(Images/dragon.png)
+}
+
+.snake {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default1.png) center no-repeat;
+    padding: 30px;
+}
+
+.snake:hover {
+    background-image: url(Images/snake.png)
+}
+
+.horse {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default4.png) center no-repeat;
+    padding: 30px;
+}
+
+.horse:hover {
+    background-image: url(Images/horse.png)
+}
+
+.ram {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default3.png) center no-repeat;
+    padding: 30px;
+}
+
+.ram:hover {
+    background-image: url(Images/ram.png)
+}
+
+.monkey {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default1.png) center no-repeat;
+    padding: 30px;
+}
+
+.monkey:hover {
+    background-image: url(Images/monkey.png)
+}
+
+.rooster {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default3.png) center no-repeat;
+    padding: 30px;
+}
+
+.rooster:hover {
+    background-image: url(Images/rooster.png)
+}
+
+.dog {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default4.png) center no-repeat;
+    padding: 30px;
+}
+
+.dog:hover {
+    background-image: url(Images/dog.png)
+}
+
+.pig {
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background:transparent url(Images/default2.png) center no-repeat;
+    padding: 30px;
+}
+
+.pig:hover {
+    background-image: url(Images/pig.png)
+}
